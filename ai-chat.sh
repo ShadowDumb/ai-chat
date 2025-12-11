@@ -49,7 +49,7 @@ NC='\033[0m' # NC 代表 "No Color"，用于结束彩色文本，恢复终端的
 # 定义各项功能的默认值。
 # 这样做的好处是，即使用户不进行任何配置，脚本也能以一套合理的设置运行。
 DEFAULT_API_URL="https://api.siliconflow.cn/v1/chat/completions"
-DEFAULT_MODEL="deepseek-ai/DeepSeek-V3.2-Exp"
+DEFAULT_MODEL="deepseek-ai/DeepSeek-V3.2"
 DEFAULT_TEMP=0.75
 DEFAULT_SYSTEM_PROMPT="You are a helpful assistant. For compatible with command line interface, your response must be pure txt format, DO NOT use markdown or latex."
 DEFAULT_HISTORY_LIMIT=10  # 历史记录保留最近 10 轮对话
